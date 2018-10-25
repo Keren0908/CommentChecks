@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0293e26e-0c79-42c4-ac47-6d13e1d0790e" name="Default Changelist" comment="" />
+    <list default="true" id="0293e26e-0c79-42c4-ac47-6d13e1d0790e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/keren/CapitalOneChecks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/keren/CapitalOneChecks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/keren/CapitalOneChecksTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/keren/CapitalOneChecksTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,22 +24,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="java" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="JAVA" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="313" />
+          <entry key="java" value="1005" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="313" />
+          <entry key="JAVA" value="1005" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -47,23 +50,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/keren/CapitalOneChecks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1063">
-              <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+            <state relative-caret-position="200">
+              <caret line="65" column="57" lean-forward="true" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1064#1065#0" expanded="true" />
+                <element signature="e#1110#1111#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/keren/Comment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+              <folding>
+                <element signature="e#547#548#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#651#652#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#686#687#0" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#703#704#0" expanded="true" />
+                <element signature="e#746#747#0" expanded="true" />
+                <element signature="e#788#789#0" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#917#918#0" expanded="true" />
+                <element signature="e#959#960#0" expanded="true" />
+                <element signature="e#1000#1001#0" expanded="true" />
+                <element signature="e#1065#1066#0" expanded="true" />
+                <element signature="e#1125#1126#0" expanded="true" />
+                <element signature="e#1172#1173#0" expanded="true" />
+                <element signature="e#1218#1219#0" expanded="true" />
+                <element signature="e#1610#1611#0" expanded="true" />
+                <element signature="e#1642#1643#0" expanded="true" />
+                <element signature="e#1689#1690#0" expanded="true" />
+                <element signature="e#1731#1732#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/com/keren/CapitalOneChecksTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+            <state relative-caret-position="218">
+              <caret line="75" column="64" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,9 +121,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/com/keren/Comment.java" />
         <option value="$PROJECT_DIR$/src/com/keren/CapitalOneChecks.java" />
         <option value="$PROJECT_DIR$/src/test/com/keren/CapitalOneChecksTest.java" />
       </list>
@@ -99,6 +144,9 @@
     <option name="y" value="23" />
     <option name="width" value="1393" />
     <option name="height" value="760" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -148,7 +196,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540315929005" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540427240630" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -237,38 +285,50 @@
       <updated>1540311344908</updated>
       <workItem from="1540311348626" duration="3067000" />
       <workItem from="1540317746185" duration="3000" />
-      <workItem from="1540421845676" duration="280000" />
+      <workItem from="1540421845676" duration="3304000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CapitalOneChecksTest - 2018.10.23 at 13h 16m 44s.xml">
-      <configuration name="CapitalOneChecksTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CapitalOneChecksTest - 2018.10.23 at 13h 18m 41s.xml">
-      <configuration name="CapitalOneChecksTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CapitalOneChecksTest - 2018.10.23 at 13h 19m 12s.xml">
-      <configuration name="CapitalOneChecksTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CapitalOneChecksTest - 2018.10.23 at 13h 22m 46s.xml">
-      <configuration name="CapitalOneChecksTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CapitalOneChecksTest - 2018.10.23 at 13h 23m 11s.xml">
       <configuration name="CapitalOneChecksTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CapitalOneChecksTest - 2018.10.23 at 13h 23m 48s.xml">
       <configuration name="CapitalOneChecksTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CapitalOneChecksTest - 2018.10.24 at 19h 55m 58s.xml">
+      <configuration name="CapitalOneChecksTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CapitalOneChecksTest - 2018.10.24 at 19h 56m 27s.xml">
+      <configuration name="CapitalOneChecksTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CapitalOneChecksTest - 2018.10.24 at 19h 56m 41s.xml">
+      <configuration name="CapitalOneChecksTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CapitalOneChecksTest - 2018.10.24 at 20h 10m 35s.xml">
+      <configuration name="CapitalOneChecksTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CapitalOneChecksTest - 2018.10.24 at 20h 12m 51s.xml">
+      <configuration name="CapitalOneChecksTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CapitalOneChecksTest - 2018.10.24 at 20h 13m 54s.xml">
+      <configuration name="CapitalOneChecksTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CapitalOneChecksTest - 2018.10.24 at 20h 24m 41s.xml">
+      <configuration name="CapitalOneChecksTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CapitalOneChecksTest - 2018.10.24 at 20h 25m 45s.xml">
+      <configuration name="CapitalOneChecksTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3350000" />
+    <option name="totallyTimeSpent" value="6374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="23" width="1393" height="760" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2568468" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2568468" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -277,12 +337,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32868218" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32868218" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -305,20 +365,56 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/com/keren/CapitalOneChecksTest.java">
+    <entry file="file://$PROJECT_DIR$/src/com/keren/Comment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+        <state relative-caret-position="174">
+          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1065#1066#0" expanded="true" />
+            <element signature="e#1125#1126#0" expanded="true" />
+            <element signature="e#1172#1173#0" expanded="true" />
+            <element signature="e#1218#1219#0" expanded="true" />
+            <element signature="e#1610#1611#0" expanded="true" />
+            <element signature="e#1642#1643#0" expanded="true" />
+            <element signature="e#1689#1690#0" expanded="true" />
+            <element signature="e#1731#1732#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/keren/CapitalOneChecks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1063">
-          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+        <state relative-caret-position="200">
+          <caret line="65" column="57" lean-forward="true" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1110#1111#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/keren/CapitalOneChecksTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="75" column="64" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -32,6 +32,13 @@ public class CapitalOneChecks {
 
     private String[] extensions = {"java","js","c","cpp","h","py","ipynb","html","xml","css"}; // Valid extension list
 
+    Comment comment;
+
+    public CapitalOneChecks(){
+        comment = new Comment();
+    }
+
+
     /**
      * To check whether the input file is valid
      * To set value to 'file' field and 'extension' field
@@ -56,7 +63,7 @@ public class CapitalOneChecks {
 
             // If not a extension defined in extension list
             if(!Arrays.asList(extensions).contains(extension)){
-
+                comment.setError("Extention is not valid!");
                 System.out.println("Extention is not valid!");
                 return false;
 
@@ -68,8 +75,9 @@ public class CapitalOneChecks {
         if(file == null || !file.exists()) {
 
             System.out.println("File Not Found!");
-            return false;
-            //throw new FileNotFoundException("File not found!");
+
+            throw new FileNotFoundException("File not found!");
+            //return false;
 
         }
 
@@ -318,7 +326,7 @@ public class CapitalOneChecks {
      * @param filepath [in] The input file
      * @exception IOException
      */
-    public  void check(String filepath) throws IOException{
+    public Comment check(String filepath) throws IOException{
 
         // check to see if the file is valid
         boolean isValid = checkFile(filepath);
@@ -354,13 +362,27 @@ public class CapitalOneChecks {
                 countLines = countLines-countBlockComments;
             }
 
+            //--------------------------ADD after submission -------------------------
+            comment.setCountLines(countLines);
+            comment.setCountCommentLines(countSingleComments+countBlockCommentsLines);
+            comment.setCountSingleComments(countSingleComments);
+            comment.setCountBlockCommentsLines(countBlockCommentsLines);
+            comment.setCountBlockComments(countBlockComments);
+            comment.setCountTODO(countTODO);
+            //--------------------------ADD after submission -------------------------
+
             System.out.println("Total # of lines: "+countLines);
             System.out.println("Total # of comment lines: "+(countSingleComments+countBlockCommentsLines));
             System.out.println("Total # of single line comments: "+countSingleComments);
             System.out.println("Total # of comment lines within block comments: "+countBlockCommentsLines);
             System.out.println("Total # of block line comments: "+countBlockComments);
             System.out.println("Total # of TODO's: "+countTODO);
+            System.out.println();
+
+
         }
+
+        return comment;
 
     }
 
